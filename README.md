@@ -16,10 +16,17 @@ As a diagram written in text:
 
 
 Once you have sent a trigger to IFTTT, you need to configure an IFTTT.com recipe (https://ifttt.com/recipes) to do something.
+
 Select the Channel "Particle" as you are creating the "IF" part of the "IF this then THAT". 
+
 When you select the Channel - enter your login details etc. as you registered them on your Particle Mobile App.
+
 Then select the option 'New event published'
+
 Then in 'event name' put 'trigger'
+
 Then in 'is' put 1 for when D0 is triggered by the button then 2 for D1 is triggered by the button
+
 Tip: You can change the word 'trigger' and '1' and '2' to be anything you want in the Particle photon code.
+
 You'll need to create TWO recipes if you have TWO buttons, 3 recipies for 3 buttons etc... As you can only have 1 published event detected per recipe.
